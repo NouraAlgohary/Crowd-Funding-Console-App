@@ -71,7 +71,7 @@ def StoreNewProject(new_project):
     projects_data.write("\n")
     projects_data.close()
     
-def EditProjectDetails(title):
+def EditProjectDetails(title, user_id):
     project_list= []
     with open(project_path, 'r') as file:
         for line in file:
@@ -79,7 +79,7 @@ def EditProjectDetails(title):
             project_list.append(Dict)
 
     for project in project_list:
-        if project['title'] == title:
+        if project['title'] == title and user_id == project["user_id"]:
             print("Project Data: ", project)
             choice = int(input("Edit: \n1.details\n2.target\n3.exit\n"))
             if choice == 1:

@@ -48,7 +48,7 @@ def DeleteProject(user_id):
         allproject_list.append(Dict)
 
     for index, project in enumerate(allproject_list):
-        if project['title'] == title:
+        if project['title'] == title and user_id == project["user_id"]:
             allproject_list.remove(project)
             projects = open(project_path, "w")
             for pro in allproject_list:
@@ -59,12 +59,14 @@ def DeleteProject(user_id):
             print(f"{title} Project Deleted\n")
             return project["no"]
 
+    print("Project Not Found!\n")
+
 ##//////////////////////////////////////
 def EditProject(user_id):
     ViewProjects(user_id)
     title = input('Ptoject Title: \n')
 
-    pf.EditProjectDetails(title)
+    pf.EditProjectDetails(title, user_id)
 
 ##//////////////////////////////////////
 def SearchForProject():

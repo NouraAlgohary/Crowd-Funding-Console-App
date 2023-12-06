@@ -39,7 +39,7 @@ def menu():
             u.Register()
         elif choice == 2:
             user_id = u.Login()
-            if user_id != -1:
+            if user_id: 
                 homePagelist(user_id)
         elif choice == 3:
             exit()
