@@ -5,7 +5,7 @@ Crowdfunding Console App is designed to facilitate fundraising campaigns by allo
 
 ![image](https://github.com/NouraAlgohary/Crowd-Funding-Console-App/assets/103903785/e6286ad7-d1e6-4570-ad30-341f18a3f6e9)
 
-![image](https://github.com/NouraAlgohary/Crowd-Funding-Console-App/assets/103903785/19c89c17-f66d-4f2e-85e4-282b1ad2e747)
+![image](https://github.com/NouraAlgohary/Crowd-Funding-Console-App/assets/103903785/75c8361e-e523-4d21-97d7-e3742f91ca88)
 
 
 ## Implementation Details
@@ -18,6 +18,7 @@ Email
 Password
 Confirm password
 Mobile phone (validated against Egyptian phone numbers)
+
 
 #### Login:
 Users can log in using their activated email and password.
