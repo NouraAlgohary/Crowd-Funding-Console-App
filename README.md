@@ -3,9 +3,7 @@
 ## Project Overview
 Crowdfunding Console App is designed to facilitate fundraising campaigns by allowing users to create, manage, and contribute to projects. The app incorporates features such as user authentication, project creation, and project management.
 
-![image](https://github.com/NouraAlgohary/Crowd-Funding-Console-App/assets/103903785/e6286ad7-d1e6-4570-ad30-341f18a3f6e9)
-
-![image](https://github.com/NouraAlgohary/Crowd-Funding-Console-App/assets/103903785/75c8361e-e523-4d21-97d7-e3742f91ca88)
+![image](https://github.com/NouraAlgohary/Crowd-Funding-Console-App/assets/103903785/9434157d-aeca-442f-beae-ec277002668d)
 
 
 ## Implementation Details
